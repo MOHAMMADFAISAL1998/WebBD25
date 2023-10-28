@@ -1,0 +1,64 @@
+@-webkit-keyframes blackWhite {  
+   
+    0% {background-color: #ff0000;}
+    20% {background-color: #e61414;}
+    40% {background-color: #fc4444;}
+    60% {background-color: #d94949;}
+    80% {background-color: #ac1111;}
+    100% {background-color: rgb(211, 0, 0);}
+    
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .blinkdiv{
+      height: 100vh;
+    -webkit-animation-name: blackWhite;
+    -webkit-animation-iteration-count: infinite;  
+    -webkit-animation-duration: 5s; 
+
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }  
+  .headMsg{
+    width: 50%;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: aqua;
+    border-radius: 12px;
+
+  } 
+  .heart {
+    fill: red;
+    position: relative;
+    top: 5px;
+    width: 50px;
+    animation: pulse 2s ease infinite; 
+  }
+  
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.3); }
+    100% { transform: scale(1); }
+  }
+
+  .videoSection{
+    height: 65%;
+    width: 90%;
+    border-style: dashed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

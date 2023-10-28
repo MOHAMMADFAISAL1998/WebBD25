@@ -1,0 +1,44 @@
+@-webkit-keyframes blackWhite {  
+   
+    0% {background-color: #ff0000;}
+    20% {background-color: #e61414;}
+    40% {background-color: #fc4444;}
+    60% {background-color: #d94949;}
+    80% {background-color: #ac1111;}
+    100% {background-color: rgb(211, 0, 0);}
+    
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .picSection{
+    height: 90%;
+    width: 50%;
+    border-style: dashed;
+    border-radius: 22px;
+    box-shadow: 2px 2px 16px rgb(92, 91, 91);
+    }
+
+  img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+  }
+  
+  .blinkdiv{
+      height: 100vh;
+    -webkit-animation-name: blackWhite;
+    -webkit-animation-iteration-count: infinite;  
+    -webkit-animation-duration: 5s; 
+
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }   
+
+  
+  
