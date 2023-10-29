@@ -28,7 +28,7 @@
     flex-direction: column;
   }  
   .headMsg{
-    width: 50%;
+    width: 85%;
     margin-bottom: 10px;
     padding: 10px 20px;
     font-family: 'Archivo Black', sans-serif;
@@ -37,7 +37,7 @@
     text-transform: uppercase;
     background-color: aqua;
     border-radius: 12px;
-
+    word-spacing: 15px;
   } 
   .heart {
     fill: red;
