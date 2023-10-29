@@ -38,7 +38,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
   }   
 
-  
+  span{
+    padding: 30px 0px;
+    color: rgb(246, 255, 0);
+    font-size: x-large;
+    font-weight: bold;
+    
+  }
   
